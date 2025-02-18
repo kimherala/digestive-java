@@ -21,7 +21,7 @@ Digestive aims to bring most of the functionality, that can be achieved with a s
 * base64
 * octal(base 8)
 
-#### Other major fetures
+#### Other major features
 * multithreading by default
 * digesting whole directories at a time
 * saving digests to a file
