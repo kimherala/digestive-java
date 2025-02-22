@@ -10,19 +10,19 @@ Digestive aims to bring most of the functionality, that can be achieved with a s
 
 ### Planned features
 #### Supported algorithms:
-* MD5([RFC 1321](https://datatracker.ietf.org/doc/html/rfc1321))
-* SHA1 and SHA2([FIPS PUB 180-4](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf))
-* SHA3([FIPS PUB 202](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf))
-* BLAKE2([RFC 7693](https://datatracker.ietf.org/doc/html/rfc7693)) and BLAKE3([spec](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf))
+* ✅ MD5([RFC 1321](https://datatracker.ietf.org/doc/html/rfc1321))
+* ✅ SHA1 and SHA2([FIPS PUB 180-4](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf))
+* ✅ SHA3([FIPS PUB 202](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf))
+* ❌ BLAKE2([RFC 7693](https://datatracker.ietf.org/doc/html/rfc7693)) and BLAKE3([spec](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf))
 
 #### Supported encodings:
-* raw(bytes)
-* hex
-* base64
-* octal(base 8)
+* ✅ raw(bytes)
+* ✅ hex
+* ✅ base64
+* ✅ octal(base 8)
 
 #### Other major features
-* multithreading by default
-* digesting whole directories at a time
-* saving digests to a file
-* saving digest files in a specific structured data format, like JSON or XML
+* ✅ multithreading by default
+* ✅ digesting whole directories at a time
+* ❌ saving digests to a file
+* ❌ saving digest files in a specific structured data format, like JSON or XML
