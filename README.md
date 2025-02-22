@@ -16,7 +16,8 @@ Digestive aims to bring most of the functionality, that can be achieved with a s
 * ❌ BLAKE2([RFC 7693](https://datatracker.ietf.org/doc/html/rfc7693)) and BLAKE3([spec](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf))
 
 #### Supported encodings:
-* ✅ raw(bytes)
+* ❌ int(raw bytes as intengers)
+* ❌ bin(raw bytes as binary numbers)
 * ✅ hex
 * ✅ base64
 * ✅ octal(base 8)
