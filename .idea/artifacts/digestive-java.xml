@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="digestive-java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Digestive_jar</output-path>
+    <root id="archive" name="digestive-java.jar">
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.9.0/e1cdfa8bf40ccbb7440b2d1232f9f45bb20a1844/commons-cli-1.9.0.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+      <element id="module-output" name="digestive.main" />
+    </root>
+  </artifact>
+</component>
