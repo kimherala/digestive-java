@@ -27,3 +27,14 @@ Digestive aims to bring most of the functionality, that can be achieved with a s
 * ✅ digesting whole directories at a time
 * ❌ saving digests to a file
 * ❌ saving digest files in a specific structured data format, like JSON or XML
+
+### Basic usage
+#### Hash current working directory:
+java -jar digestive.jar -a SHA-256 -e base64
+
+#### Hash custom path:
+java -jar digestive.jar -a SHA-256 -e base64 -p ~/Downloads/
+
+#### Hash single file(Coming soon(TM)):
+java -jar digestive.jar -a SHA-256 -e base64 -f ~/Downloads/your.file
+
